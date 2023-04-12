@@ -1,0 +1,54 @@
+body{
+    background-color: whitesmoke;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: xx-large;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    padding-left: 200px;
+    padding-right: 50px;
+    border-spacing: 0 10px;
+}
+
+td { padding: 4px; }
+
+label {
+    font-size: 25px;
+}
+
+input {
+    font-size: 16px;
+}
+
+#div_form {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#form_heading {
+    font-size: xx-large;
+    text-align: center;
+}
+
+#btn_div {
+    padding-left: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 20px;
+}

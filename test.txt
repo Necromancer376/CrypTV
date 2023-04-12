@@ -1,0 +1,3 @@
+to run:
+    truffle develop
+    migrate --reset

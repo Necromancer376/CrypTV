@@ -1,0 +1,13 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-gap: 1rem;
+    grid-auto-flow: row;
+  }
+
+.item {
+  background-color: "#555555";
+  width:250;
+  height:250;
+}

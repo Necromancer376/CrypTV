@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="form_heading">Login</h1>
+
+        <div id="div_form">
+            <form>
+                <table>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td>
+                            <input type="email" id="input_email">
+                        </td>
+                        <td><p class="error_msg" id="err_email"></p></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td>
+                            <input type="password" id="input_password">
+                        </td>
+                    </tr>
+                </table>
+                <div id="btn_div">
+                    <button type="button" id="btn_submit" onclick="location.href='http:\/\/127.0.0.1:3000';">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
